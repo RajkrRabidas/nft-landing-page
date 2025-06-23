@@ -1,0 +1,132 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.6rem 6%;
+}
+ .menu-btn{
+    display: none;
+    font-size: 3.4rem;
+  }
+header h2 {
+  font-size: 2.4rem;
+  font-family: bold;
+}
+.navbar .home {
+  content: "";
+  left: 1px;
+  top: 35px;
+  position: absolute;
+  width: 35px;
+  height: 3px;
+  background: linear-gradient(to right, #3f02c2,60%, #00a5ec);
+  border-radius: 5px;
+  right: 606px;
+}
+
+.navbar li a::after {
+  content: "";
+  left: 0;
+  bottom: -6px;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #3f02c2,60%, #00a5ec);
+  border-radius: 5px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+.navbar a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+header h2 span {
+  padding: 0.3rem 0.4rem;
+  background: linear-gradient(to right, #602cd0, #00a5ec);
+}
+
+.navbar li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  position: relative;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 2.1rem;
+  font-family: "poppins", sans-serif;
+  position: relative;
+}
+
+.header-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-btn button {
+  padding: 0.9rem 2rem; 
+  border-radius: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "poppins", sans-serif;
+}
+.gradient-border {
+  background: linear-gradient(to right, #602cd0, #00a5ec);
+  padding: 2px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.header-btn .btn-1 {
+  background-color: #0a081f;
+  color: white;
+  padding: 0.9rem 2rem; 
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  gap: 8px;
+}
+.header-btn .btn-1 i {
+  background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.header-btn .btn-2 {
+  background: linear-gradient(to right, #602cd0, #00a5ec);
+}
+
+@media only screen and (max-width: 1280px) {
+      .navbar li{
+        gap: 4.7rem;
+  }
+}
+
+
+@media only screen and (max-width: 1220px) {
+  .navbar {
+    display: none;
+  }
+ .menu-btn{
+    display: flex;
+    font-size: 3.4rem;
+  }
+  .header-btn {
+    display: none;
+  }
+}

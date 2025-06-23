@@ -1,0 +1,152 @@
+.slider-container {
+  width: 100%;
+  height: 80vh;
+  color: white;
+  text-align: center;
+  margin-bottom: 15rem;
+}
+
+.slider-container h2 {
+  font-size: 5rem;
+  font-family: bold;
+}
+.silde-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  position: relative;
+}
+
+.silde-box .box1 {
+  width: 100%;
+  height: 35rem;
+  position: relative;
+}
+
+.silde-box .box1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+}
+
+.active {
+  transform: scale(1.4);
+  margin: 0 4rem;
+}
+
+.info {
+  background: linear-gradient(to right, #8a0085b3, 40%, #4aa1e5);
+  width: 100%;
+  height: 10rem;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0 0 22px 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.info .text {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.4rem 0;
+  justify-content: center;
+}
+.info .text h4 {
+  font-size: 1.5rem;
+  font-family: bold;
+  margin-bottom: 4px;
+}
+.info .text p {
+  font-size: 9px;
+  font-family: "poppins", sans-serif;
+}
+
+.info .buttons {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.buttons button {
+  background: transparent;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  border: 1px solid #6031d1;
+  color: #fff;
+}
+
+.buttons p {
+  font-size: 1.7rem;
+}
+
+.buttons p i {
+  color: #6031d1;
+}
+
+.glowing3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 90vh;
+  background: radial-gradient(circle at center, #4080ff, transparent 80%);
+  filter: blur(100px);
+  border-radius: 50%;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 910px) {
+  .slider-container {
+    height: 100%;
+  }
+  .silde-box {
+    height: auto;
+    flex-direction: column;
+    padding: 0 20%;
+  }
+    .active {
+    transform: scale(1);
+    margin: 0;
+  }
+  .silde-box .box1{
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .slider-container {
+    height: 100%;
+  }
+  .silde-box {
+    height: auto;
+    flex-direction: column;
+    padding: 0;
+  }
+  .silde-box .box1 {
+    width: 85%;
+    height: 46rem;
+  }
+  .active {
+    transform: scale(1);
+    margin: 0;
+  }
+}
