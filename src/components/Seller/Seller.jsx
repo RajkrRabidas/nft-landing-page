@@ -67,6 +67,57 @@ const Seller = () => {
               <p className="token">230.6 Eth</p>
             </div>
           </div>
+
+          <div className="item">
+            <div className="image-user">
+              <img
+                src="https://i.pinimg.com/280x280_RS/91/01/5f/91015f52595737c640b3fa6743a2479f.jpg"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+
+          <div className="item">
+            <div className="image-user">
+              <img
+                src="https://qualitservices.tech/wp-content/uploads/2020/06/avatar5-150x150.jpg"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+
+          <div className="item">
+            <div className="image-user">
+              <img
+                src="https://git.flossk.org/user/avatar/harpermason/290"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+          <div className="item">
+            <div className="image-user">
+              <img
+                src="https://git.flossk.org/user/avatar/harpermason/290"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
         </div>
 
         <div className="seller-items">
@@ -122,6 +173,58 @@ const Seller = () => {
             <div className="image-user">
               <img
                 src="https://git.flossk.org/user/avatar/harpermason/290"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+
+          <div className="item2">
+            <div className="image-user">
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXNlcnN8ZW58MHx8MHx8fDA%3D"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+
+          <div className="item2">
+            <div className="image-user">
+              <img
+                src="https://images.unsplash.com/photo-1563237023-b1e970526dcb?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+
+          <div className="item2">
+            <div className="image-user">
+              <img
+                src="https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D"
+                alt=""
+              />
+            </div>
+            <div className="user-name">
+              <p className="name">Sophie Mcla</p>
+              <p className="token">230.6 Eth</p>
+            </div>
+          </div>
+
+          <div className="item2">
+            <div className="image-user">
+              <img
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXNlcnN8ZW58MHx8MHx8fDA%3D"
                 alt=""
               />
             </div>
