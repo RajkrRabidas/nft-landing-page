@@ -323,5 +323,6 @@
   .user-stats {
     padding-top: 4rem;
     justify-content: center;
+    gap: 2rem;
   }
 }
